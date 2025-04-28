@@ -7,7 +7,64 @@
     <title>Podreńcznik</title>
   </head>
   <style>
-    
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      margin: 0;
+      background-color: #3f9fff;
+    }
+    nav {
+      width: 250px;
+      background-color: #dbe9f4;
+      padding: 20px;
+      height: 100vh;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    }
+    nav h2 {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+      color: #0056b3;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      padding: 40px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 32px;
+      color: #003366;
+    }
+    section {
+      margin-bottom: 40px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    section h3 {
+      color: #333;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .text1{
+      font-size: 35px;
+    }
   </style>
 
   <body>
@@ -15,68 +72,69 @@
     <script type="module" src="/src/main.jsx"></script>
     <nav>
       <h2>Spis treści</h2>
-      <a href="#tekst">TEKST</a>
-      <a href="#listy">LISTY</a>
-      <a href="#tabele">TABELE</a>
-      <a href="#formularze">FORMULARZE</a>
-      <a href="#multimedia">MULTIMEDIA</a>
+      <h1>TEKST</h1>
+      <a href="#tekst">Jak ustawić tło strony i tekstu</a>
+      <a href="#tekst">Tworzenie działów, rozdziałów i podrozdziałów</a>
+      <a href="#tekst">Dodawanie nowych linijek i akapitów</a>
+      <a href="#tekst">Zmiana czcionki i jej rozmiaru</a>
+      <a href="#tekst">Kolorowanie tekstu</a>
+      <a href="#tekst">Pogrubianie, pochylanie, podkreślanie i przekreślanie tekstu</a>
+      <a href="#tekst">Użycie indeksu górnego i dolnego</a>
+      <a href="#tekst">Tworzenie i stylizacja linków</a>
+      <a href="#tekst"> Ukrywanie tekstu (np. przy pomocy CSS)</a>
+
+      <h1>LISTY</h1>
+      <a href="#tekst">Tworzenie list wypunktowanych (ul)</a>
+      <a href="#tekst">Tworzenie list numerowanych (ol)</a>
+      <a href="#tekst">Zagnieżdżanie list (listy w listach)</a>
+      <a href="#tekst">Listy definicyjne (dl, dt, dd)</a>
+      <a href="#tekst">Stylizacja list – własne znaczniki</a>
+
+
+
+
+
+      <h1>TABELE</h1>
+      <a href="#tekst">Tworzenie prostych tabel</a>
+      <a href="#tekst">Łączenie kolumn i wierszy</a>
+      <a href="#tekst">Wstawianie tekstu i obrazów do tabel</a>
+
+
+
+      <h1>FORMULARZE</h1>
+      <a href="#tekst">Jak utworzyć formularz HTML</a>
+      <a href="#tekst">Różne typy pól (tekst, e-mail, hasło, checkbox itp.)</a>
+
+
+
+
+
+      <h1>MULTIMEDIA</h1>
+      <a href="#tekst">Dodawanie obrazów do strony</a>
+      <a href="#tekst">Osadzanie filmów (np. z YouTube)</a>
+      <a href="#tekst">Dodawanie dźwięków (np. w tle)</a>
+
+
+
+
+
+
     </nav>
     <main>
       <header>
-        <h1>Podręcznik HTML dla Ucznia</h1>
-      </header>
-  
-      <section id="tekst">
-        <h3>TEKST</h3>
-        <ul>
-          <li>Jak ustawić tło strony i tekstu</li>
-          <li>Tworzenie działów, rozdziałów i podrozdziałów</li>
-          <li>Dodawanie nowych linijek i akapitów</li>
-          <li>Zmiana czcionki i jej rozmiaru</li>
-          <li>Kolorowanie tekstu</li>
-          <li>Pogrubianie, pochylanie, podkreślanie i przekreślanie tekstu</li>
-          <li>Użycie indeksu górnego i dolnego</li>
-          <li>Tworzenie i stylizacja linków</li>
-          <li>Ukrywanie tekstu (np. przy pomocy CSS)</li>
-        </ul>
-      </section>
-  
-      <section id="listy">
-        <h3>LISTY</h3>
-        <ul>
-          <li>Tworzenie list wypunktowanych (ul)</li>
-          <li>Tworzenie list numerowanych (ol)</li>
-          <li>Zagnieżdżanie list (listy w listach)</li>
-          <li>Listy definicyjne (dl, dt, dd)</li>
-          <li>Stylizacja list – własne znaczniki</li>
-        </ul>
-      </section>
-  
-      <section id="tabele">
-        <h3>TABELE</h3>
-        <ul>
-          <li>Tworzenie prostych tabel</li>
-          <li>Łączenie kolumn i wierszy</li>
-          <li>Wstawianie tekstu i obrazów do tabel</li>
-        </ul>
-      </section>
-  
-      <section id="formularze">
-        <h3>FORMULARZE</h3>
-        <ul>
-          <li>Jak utworzyć formularz HTML</li>
-          <li>Różne typy pól (tekst, e-mail, hasło, checkbox itp.)</li>
-        </ul>
-      </section>
-  
-      <section id="multimedia">
-        <h3>MULTIMEDIA</h3>
-        <ul>
-          <li>Dodawanie obrazów do strony</li>
-          <li>Osadzanie filmów (np. z YouTube)</li>
-          <li>Dodawanie dźwięków (np. w tle)</li>
-        </ul>
-      </section>
+        <h1 class="text1">Podręcznik HTML dla Ucznia</h1>
+        <h2 class="text1">Podręcznik: "Podstawy HTML"</h2>
+        <h2 class="text1">Autor: Vitalik</h2>
+        <h2 class="text1">Rok wydania: 2025</h2>
+        <h2 class="text1">Przedmiot: HTML</h2>
+        <h2 class="text1">Opis: </h2>
+        <h2 class="text1">Oczywiście, oto opis podręcznika o HTML:
+
+          Podręcznik "Podstawy HTML" jest przeznaczony dla uczniów, którzy chcą rozpocząć naukę tworzenia stron internetowych. Książka krok po kroku wprowadza w podstawowe pojęcia języka HTML, wyjaśnia jego strukturę oraz zasady tworzenia i formatowania stron WWW. Zawiera szczegółowe omówienie tagów HTML, takich jak nagłówki, akapity, listy, łącza, obrazy oraz formularze, a także wprowadza do bardziej zaawansowanych elementów, jak tabele i osadzone multimedia.
+          
+          Podręcznik zawiera liczne przykłady, które pozwalają uczniom na praktyczne zastosowanie zdobytej wiedzy. Każdy rozdział kończy się ćwiczeniami, które pomagają utrwalić materiał i rozwijać umiejętności praktyczne. Dodatkowo książka oferuje wskazówki dotyczące najlepszych praktyk w tworzeniu stron internetowych, takich jak struktura kodu czy dostępność.
+          
+          To idealny podręcznik dla początkujących, którzy chcą nauczyć się tworzyć proste, ale estetyczne strony internetowe, a także dla nauczycieli szukających materiałów dydaktycznych do nauczania HTML.</h2>
     </main>
   </body>
 </html>
